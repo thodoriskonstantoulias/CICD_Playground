@@ -8,7 +8,7 @@ trigger:
 - none
 
 pool:
-  vmImage: 'window-latest'
+  vmImage: 'ubuntu-latest'
 
 variables:
   buildPlatform: 'Any CPU'
