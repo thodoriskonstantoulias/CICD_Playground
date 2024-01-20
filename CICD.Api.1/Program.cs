@@ -28,7 +28,7 @@ app.MapGet("/weatherforecast", () =>
         (
             DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
             Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)] + " Test github again 7"
+            summaries[Random.Shared.Next(summaries.Length)] + " Test yaml"
         ))
         .ToArray();
     return forecast;
